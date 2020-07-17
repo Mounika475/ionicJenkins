@@ -2,9 +2,12 @@ pipeline {
 
     agent any
 
-    environment {
-        PATH='/usr/local/bin:/usr/bin:/bin'
-	}
+    //environment {
+       // PATH='/usr/local/bin:/usr/bin:/bin'
+//	}
+  tools {
+           nodejs "nodejs" 
+           }
 
     stages {
 
